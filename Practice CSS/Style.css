@@ -1,0 +1,33 @@
+h3 {
+    color: brown;
+    background-color: aqua;
+    display: inline;                                          /*background color only extends to the width of the text*/
+}
+#para1 {
+    color: blue;
+    background-color: rgb(215, 158, 93);
+}
+#para2 {
+    color: blueviolet;
+}
+#hd1{
+    background-color: black;
+}
+.myclass{
+    color: chocolate;
+    background-color: aqua;
+}
+div{
+    width: 500px;
+    background-color: rgb(203, 10, 10);
+    margin-left: 30px;
+    padding-left: 30px;       /*given for move text inside the div*/
+    border: 5px solid;        /*Border for div*/
+    border-color: black;
+}
+.givecolor
+{
+    color: rgb(214, 224, 232);
+    
+    
+}
