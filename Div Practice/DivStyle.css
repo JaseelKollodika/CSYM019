@@ -1,0 +1,16 @@
+.Outer-box{
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.box1{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(7, 47, 47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
