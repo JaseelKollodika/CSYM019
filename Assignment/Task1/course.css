@@ -1,3 +1,14 @@
+.logo {
+    background-image: url(avatar_1557.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 100px; /* set desired width */
+  height: 100px; /* set desired height */
+  position: absolute;
+  top: 10px; /* set desired distance from top */
+  left: 10px; /* set desired distance from left */
+}
+
 /*Table styling*/
 table {
     border-collapse: collapse;
