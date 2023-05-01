@@ -1,0 +1,71 @@
+[
+    {
+      "id": 1,
+      "courseName": "Artificial Intelligence and Data Science BSc (Hons)",
+      "level": "Undergraduate",
+      "duration": {
+        "fullTime": "3 years",
+        "fullTimeFoundation": "4 years",
+        "partTime": "4 - 6 years"
+      },
+      "starting": "September",
+      "fees": {
+        "uk": {
+          "fullTime": "£9,250",
+          "partTime": "£1,540 per 20 credit module",
+          "integratedFoundationYear": "£9,250"
+        },
+        "international": {
+          "fullTime": "£14,750",
+          "integratedFoundationYear": "£14,750"
+        }
+      },
+      "location": "Waterside"
+    },
+    {
+      "id": 2,
+      "courseName": "Business Computing BSc (Hons)",
+      "level": "Undergraduate",
+      "duration": {
+        "fullTime": "3 years",
+        "fullTimeFoundation": "4 years",
+        "partTime": "4 - 6 years"
+      },
+      "starting": "September",
+      "fees": {
+        "uk": {
+          "fullTime": "£9,250",
+          "partTime": "£1,540 per 20 credit module",
+          "integratedFoundationYear": "£9,250"
+        },
+        "international": {
+          "fullTime": "£14,750"
+        }
+      },
+      "location": "Waterside"
+    },
+    {
+      "id": 3,
+      "courseName": "Computer Networks Engineering BSc (Hons)",
+      "level": "Undergraduate",
+      "duration": {
+        "fullTime": "3 years",
+        "fullTimeFoundation": "4 years",
+        "partTime": "4 - 6 years"
+      },
+      "starting": "September",
+      "fees": {
+        "uk": {
+          "fullTime": "£9,250",
+          "partTime": "£1,540 per 20 credit module",
+          "integratedFoundationYear": "£9,250"
+        },
+        "international": {
+          "fullTime": "£14,750",
+          "integratedFoundationYear": "£14,750"
+        }
+      },
+      "location": "Waterside"
+    }
+  ]
+  
