@@ -4,41 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>document</title>
     <link rel="stylesheet" href="course.css">
+    <script src="https://kit.fontawesome.com/718b8eee3b.js" crossorigin="anonymous"></script>
+    <title>Course Information</title>
 </head>
+
 <body>
-    <div>
-        <div class="container">
-          <div class="header"></div>
-          <a href="Main Page.html"> <!--give the name of page that logo wanted to redirect-->
-          <div class="logo"></div>
-        </div></a><br><br><br><br>
-      </div>
-    
-        
+    <h1>University of Northampton Course details</h1>
+    <div class="selector">
+        <select id="currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+        </select>
+    </div>
+    <div class="tablewrapper">
+        <table id="coursesTable">
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Level</th>
+                    <th>Campus</th>
+                    <th>Duration</th>
+                    <th>Starting</th>
+                    <th>UK Fees</th>
+                    <th>International Fees</th>
+                    <th>Course Details</th>
+                    <th>Entry Requirements</th>
+                    <th>IELTS</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
 
-
-    <table>
-        <thead>
-            <tr>
-                <th>Course</th>
-                <th>Level</th>
-                <th>Duration</th>
-                <th>Starting</th>
-                <th>Fees UK 23/24</th>
-                <th>Fees International 23/24</th>
-                <th>Location</th>
-
-                
-            </tr>
-
-
-        </thead>
-        <tbody id="data-output">
-                                                             <!--Populated from javascript file-->
-        </tbody>     
-    </table>
-    <script src="course.js"></script>                                   <!--Link to the Javascript file-->
+    <script src="./course.js"></script>
 </body>
+
 </html>
