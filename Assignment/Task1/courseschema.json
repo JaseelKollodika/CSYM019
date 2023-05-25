@@ -1,0 +1,85 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "courses": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "integer" },
+            "name": { "type": "string" },
+            "level": { "type": "string" },
+            "location": { "type": "string" },
+            "duration": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": { "type": "integer" },
+                  "name": { "type": "string" },
+                  "duration": { "type": "string" }
+                },
+                "required": ["id", "name", "duration"]
+              }
+            },
+            "starting": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": { "type": "integer" },
+                  "name": { "type": "string" }
+                },
+                "required": ["id", "name"]
+              }
+            },
+            "feesUk": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": { "type": "integer" },
+                  "currency": { "type": "string" },
+                  "fees": { "type": "string" }
+                },
+                "required": ["id", "currency", "fees"]
+              }
+            },
+            "feesInternational": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": { "type": "integer" },
+                  "currency": { "type": "string" },
+                  "fees": { "type": "string" }
+                },
+                "required": ["id", "currency", "fees"]
+              }
+            },
+            "courseDetails": { "type": "string" },
+            "entryRequierment": { "type": "string" },
+            "ielts": { "type": "string" },
+            "link": { "type": "string" }
+          },
+          "required": [
+            "id",
+            "name",
+            "level",
+            "location",
+            "duration",
+            "starting",
+            "feesUk",
+            "feesInternational",
+            "courseDetails",
+            "entryRequierment",
+            "ielts",
+            "link"
+          ]
+        }
+      }
+    },
+    "required": ["courses"]
+  }
+  
