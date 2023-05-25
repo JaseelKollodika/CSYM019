@@ -1,71 +1,663 @@
-[
-    {
-      "id": 1,
-      "courseName": "Artificial Intelligence and Data Science BSc (Hons)",
-      "level": "Undergraduate",
-      "duration": {
-        "fullTime": "3 years",
-        "fullTimeFoundation": "4 years",
-        "partTime": "4 - 6 years"
-      },
-      "starting": "September",
-      "fees": {
-        "uk": {
-          "fullTime": "£9,250",
-          "partTime": "£1,540 per 20 credit module",
-          "integratedFoundationYear": "£9,250"
+{
+    "courses": [
+        {
+            "id": 1,
+            "name": "Logistics and Supply Chain Management MSc",
+            "level": "Postgraduate",
+            "location": "Waterside",
+            "duration": [
+                {
+                    "id": 1,
+                    "name": "Full Time",
+                    "duration": "1 year"
+                },
+                {
+                    "id": 2,
+                    "name": "Full Time with Placement",
+                    "duration": "2 years"
+                }
+            ],
+            "starting": [
+                {
+                    "id": 1,
+                    "name": "September"
+                    
+                },
+                {
+                    "id": 2,
+                    "name": "February"
+                }
+            ],
+            "feesUk": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£8,010"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€9,096"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$9,888"
+                }
+            ],
+            "feesInternational": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£16,020"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€18,192"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$19,776"
+                }
+            ],
+            "courseDetails": "Our Masters in Logistics and Supply Chain Management program covers the entire supply chain, including raw material supply, transportation modes, and resource recovery. It focuses on recent technological advancements aimed at reducing costs, shortening lead times, and improving customer value. The course explores current approaches in supply chain and logistics management, and examines how these approaches may evolve using theoretical and industry sources. By completing this program, you will develop a strong conceptual understanding of logistics management, gain essential skills and analytical techniques, and contribute significantly to achieving your employer's goals in this field.",
+            "entryRequierment": "To be eligible for this course in Logistics and Supply Chain Management the typical entry requirement would be a 2.2 or higher degree classification from a UK university or equivalent.",
+            "ielts": "6.5 with a minimum of 6.0 in each band",
+            "link": "https://www.northampton.ac.uk/courses/logistics-and-supply-chain-management-msc/#course_related"
         },
-        "international": {
-          "fullTime": "£14,750",
-          "integratedFoundationYear": "£14,750"
-        }
-      },
-      "location": "Waterside"
-    },
-    {
-      "id": 2,
-      "courseName": "Business Computing BSc (Hons)",
-      "level": "Undergraduate",
-      "duration": {
-        "fullTime": "3 years",
-        "fullTimeFoundation": "4 years",
-        "partTime": "4 - 6 years"
-      },
-      "starting": "September",
-      "fees": {
-        "uk": {
-          "fullTime": "£9,250",
-          "partTime": "£1,540 per 20 credit module",
-          "integratedFoundationYear": "£9,250"
+        {
+            "id": 2,
+            "name": "Advanced Design and Manufacturing MSc",
+            "level": "Postgraduate",
+            "location": "Waterside",
+            "duration": [
+                {
+                    "id": 1,
+                    "name": "Full Time",
+                    "duration": "1 year"
+                },
+                {
+                    "id": 2,
+                    "name": "Part Time",
+                    "duration": "2 years"
+                }
+            ],
+            "starting": [
+                {
+                    "id": 1,
+                    "name": "September"
+                },
+                {
+                    "id": 2,
+                    "name": "February"
+                }
+            ],
+            "feesUk": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£8010"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€10,522.52"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$11,494.70"
+                }
+            ],
+            "feesInternational": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£16,500"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€19,022.67"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$20,414.21"
+                }
+            ],
+            "courseDetails": "Our Advanced Design and Manufacturing MSc addresses the complete life cycle of a product or process, from conception through to design and manufacture to disposal. This highly applied programme develops students’ knowledge and understanding of the scientific principles underpinning engineering in the field of design and manufacturing, and of the accompanying legal, ethical and professional considerations. There is a strong focus on integrating current research and developments into learning and teaching.",
+            "entryRequierment": "Applicants will normally hold a recognised first or second class honours degree from a UK university or international equivalent in a relevant subject area. We expect that you will have a knowledge of Engineering from almost any discipline (e.g. Mechanical, Design, Electrical, Manufacturing) and are interested in developing your engineering skills in the area of modelling, control and sustainability.",
+            "ielts": "6.5 (or equivalent)",
+            "link": "https://www.northampton.ac.uk/courses/advanced-design-and-manufacturing-msc/#course_overview"
         },
-        "international": {
-          "fullTime": "£14,750"
-        }
-      },
-      "location": "Waterside"
-    },
-    {
-      "id": 3,
-      "courseName": "Computer Networks Engineering BSc (Hons)",
-      "level": "Undergraduate",
-      "duration": {
-        "fullTime": "3 years",
-        "fullTimeFoundation": "4 years",
-        "partTime": "4 - 6 years"
-      },
-      "starting": "September",
-      "fees": {
-        "uk": {
-          "fullTime": "£9,250",
-          "partTime": "£1,540 per 20 credit module",
-          "integratedFoundationYear": "£9,250"
+        {
+            "id": 3,
+            "name": "Computer Networks Engineering BSc (Hons)",
+            "level": "Undergraduate",
+            "location": "Waterside",
+            "duration": [
+                {
+                    "id": 1,
+                    "name": "Full Time",
+                    "duration": "3 year"
+                },
+                {
+                    "id": 2,
+                    "name": "Full Time Foundation",
+                    "duration": "4 year"
+                },
+                {
+                    "id": 3,
+                    "name": "Part Time",
+                    "duration": "4 - 6 years"
+                }
+            ],
+            "starting": [
+                {
+                    "id": 1,
+                    "name": "September"
+                }
+            ],
+            "feesUk": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£9,250"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€10,522.52"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$11,494.70"
+                }
+            ],
+            "feesInternational": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£14,750"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€16,986.29"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$18,217.36"
+                }
+            ],
+            "courseDetails": "The BSc Computer Networks Engineering degree enables students to develop and apply a range of analytical techniques and problem-solving skills to real-world computer networking scenarios. Students build their professional capabilities independently and as part of a team in a systematic practical manner. These capabilities are applicable to a wide range of professional roles within computer engineering. Through their learning journey, students will study modern networking theories and will devise solutions to real problems. Students will have the opportunity to have a hands-on modern networking lab and access to simulation tools and cloud systems throughout the network engineering course.",
+            "entryRequierment": "A typical offer could be:BCC at A-Level or,DMM at BTEC or,Pass (C or above) at T LevelApplicants will be expected to have achieved GCSE Mathematics (or equivalent) at grade C/4 or above. We welcome international applicants and applications from students with a range of non-traditional educational or professional qualifications.",
+
+            "ielts": "6.0 (or equivalent) with a minimum of 5.5 in all bands",
+            "link": "https://www.northampton.ac.uk/courses/children-and-young-peoples-nursing-bsc-hons/"
         },
-        "international": {
-          "fullTime": "£14,750",
-          "integratedFoundationYear": "£14,750"
+        {
+            "id": 4,
+            "name": "Computer Science BSc (Hons)",
+            "level": "Undergraduate",
+            "location": "Waterside",
+            "duration": [
+                {
+                    "id": 1,
+                    "name": "Full Time",
+                    "duration": "3 year"
+                },
+                {
+                    "id": 2,
+                    "name": "Full Time Foundation",
+                    "duration": "4 years"
+                },
+                {
+                    "id": 3,
+                    "name": "Part Time",
+                    "duration": "4-6 years"
+                }
+            ],
+            "starting": [
+                {
+                    "id": 1,
+                    "name": "September"
+                }
+            ],
+            "feesUk": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£9,250"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€10,522.52"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$11,494.70"
+                }
+            ],
+            "feesInternational": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£14,750"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€16,774.92"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$18,328.44"
+                }
+            ],
+            "courseDetails": "Our Computer Science BSc (Hons) degree gives you the opportunity to explore different ideas and develop innovative solutions to current issues in the computing industry. This three-year Computer Science degree will give you an insight into the computing industry, investigating the wide-reaching influences that computers and computing technology have on the world. Studying this course will also contribute towards helping you find your ideal path for a career in Computing.",
+            "entryRequierment": "A typical offer could be:BCC at A-Level or,DMM at BTEC or,Pass (C or above) at T Level,Applicants will be expected to have achieved GCSE Mathematics (or equivalent) at grade C/4 or above. We welcome international applicants and applications from students with a range of non-traditional educational or professional qualifications.",
+            "ielts": "6.0 (or equivalent) with a minimum of 5.5 in all bands",
+            "link": "https://www.northampton.ac.uk/courses/computer-science-bsc-hons/#course_overview"
+        },
+        {
+            "id": 5,
+            "name": "Web Development and Cyber Security BSc (Hons)",
+            "level": "Undergraduate",
+            "location": "Waterside",
+            "duration": [
+                {
+                    "id": 1,
+                    "name": "Full Time",
+                    "duration": "3 year"
+                },
+                {
+                    "id": 2,
+                    "name": "Full Time Foundation",
+                    "duration": "4 years"
+                },
+                {
+                    "id": 3,
+                    "name": "Part Time",
+                    "duration": "4 years"
+                }
+            ],
+            "starting": [
+                {
+                    "id": 1,
+                    "name": "September"
+                }
+            ],
+            "feesUk": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£9,250"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€10,522.52"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$11,494.70"
+                }
+            ],
+            "feesInternational": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£14,750"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€16,774.92"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$18,328.44"
+                }
+            ],
+            "courseDetails": "The Web Development and Cyber Security BSc (Hons) program offers a comprehensive curriculum that covers both web development and cybersecurity. In the first year, students study foundational modules such as Computer Systems, Computer Communications, Web Development, Software Specification- Analysis and Design, Object Programming, and Database Design and Development. These modules provide the necessary knowledge and skills for more specialized subjects in the second and third years.During the second and third years, students have the option to choose from a range of modules that cater to their interests and career goals. These include Ethical Hacking & Penetration Testing, Web Programming, Server Administration & Security, Advanced Database Implementation, Mobile Application Development, and a Group Project. In the final year, students focus on advanced topics such as Cyber Security & Applied Cryptography, Cyber Security Management, Mobile Computing, Modern Databases/NoSQL databases, and complete a Dissertation.Practical application of knowledge is emphasized throughout the program, with opportunities to work on team-based projects in the second year and an individual research project in the final year. Graduates of the program are well-prepared to enter the industry and pursue careers in areas such as web development, cybersecurity, and can also choose to further their studies through research and development at a higher degree level.",
+            "entryRequierment": "A typical offer could be:BCC at A-Level or,DMM at BTEC or,Pass (C and above) at T Level,Applicants will be expected to have achieved GCSE Mathematics (or equivalent) at grade C/4 or above. We welcome international applicants and applications from students with a range of non-traditional educational or professional qualifications.",
+            "ielts": "6.0 (or equivalent) with a minimum of 5.5 in all bands",
+            "link": "https://www.northampton.ac.uk/courses/web-development-and-cyber-security-bsc-hons/#course_overview"
+        },
+        {
+            "id": 6,
+            "name": "Artificial Intelligence and Data Science BSc (Hons)",
+            "level": "Undergraduate",
+            "location": "Waterside",
+            "duration": [
+                {
+                    "id": 1,
+                    "name": "Full Time",
+                    "duration": "1 year"
+                },
+                {
+                    "id": 2,
+                    "name": "Full Time Foundation",
+                    "duration": "4 years"
+                },
+                {
+                    "id": 3,
+                    "name": "Part Time",
+                    "duration": "4-6years"
+                }
+            ],
+            "starting": [
+                {
+                    "id": 1,
+                    "name": "September"
+                }
+            ],
+            "feesUk": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£9,250"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€10,522.52"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$11,494.70"
+                }
+            ],
+            "feesInternational": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£14,750"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€16,774.92"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$18,328.44"
+                }
+            ],
+            "courseDetails": "This degree in artificial intelligence and data science will equip you with a range of knowledge and practical skills required to establish your career. They can aid many career paths, such as a machine learning software engineer, solution architect, project manager or AI research scientist. You will learn the fundamentals and applications of data science and machine learning progressively over the course period.",
+            "entryRequierment": "A typical offer for the BSc Data Science and Artificial Intelligence degree is: \n BCC at A Level or, \n DMM at BTEC or, \n Pass (C and above) at T Level",
+            "ielts": "6.0 (or equivalent) with a minimum of 5.5 in all bands",
+            "link": "https://www.northampton.ac.uk/courses/artificial-intelligence-and-data-science-bsc-hons/"
+        },
+        {
+            "id": 7,
+            "name": "Business Computing BSc (Hons)",
+            "level": "Undergraduate",
+            "location": "Waterside",
+            "duration": [
+                {
+                    "id": 1,
+                    "name": "Full Time",
+                    "duration": "3 year"
+                },
+                {
+                    "id": 2,
+                    "name": "Full Time Foundation",
+                    "duration": "4 year"
+                },
+                {
+                    "id": 3,
+                    "name": "Part Time",
+                    "duration": "4-6years"
+                }
+            ],
+            "starting": [
+                {
+                    "id": 1,
+                    "name": "September"
+                }
+            ],
+            "feesUk": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£9,250"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "10,658.78"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$11,425.28"
+                }
+            ],
+            "feesInternational": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "14,750"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€16,990.97"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$18,217.36"
+                }
+            ],
+            "courseDetails": "The Business Computing BSc (Hons) program takes a professional approach to computing and focuses on applying technology in a business context. It covers the design, implementation, and utilization of technical solutions to address industry challenges. In today's technology-dependent world, businesses need individuals who can create robust, reliable, and user-friendly systems that contribute to organizational success. This hands-on course equips students with practical skills like SQL, PHP, and Java, enhancing their employability. It also fosters problem-solving abilities and strategic thinking to effectively utilize these skills and gain business insights. Graduates of the program can pursue careers in data analysis, web design and development, databases, programming, systems analysis, IT management, or even start their own ventures.",
+            "entryRequierment": "Standard entry requirements apply. A typical offer would be:BCC at A-Level or, DMM at BTEC or,Pass (C and above) at T Level, No prior computing experience is required.In addition to the standard UON entry requirements, applicants will be expected to have achieved GCSE Mathematics at Grade C or above. Access (with 12 credits at L2 or 6 at L3 in Maths) and BTEC qualification in Computing at Level 3 are accepted in lieu of Mathematics GCSE.",
+            "ielts": "6.0 (or equivalent) with a minimum of 5.5 in all bands",
+            "link": "https://www.northampton.ac.uk/courses/business-computing-bsc-hons/#course_overview"
+        },
+        {
+            "id": 8,
+            "name": "Digital Marketing MSc",
+            "level": "Postgraduate",
+            "location": "Waterside",
+            "duration": [
+                {
+                    "id": 1,
+                    "name": "Full Time",
+                    "duration": "1 year"
+                },
+                {
+                    "id": 2,
+                    "name": "Part Time",
+                    "duration": "2 years"
+                }
+            ],
+            "starting": [
+                {
+                    "id": 1,
+                    "name": "September"
+                }
+            ],
+            "feesUk": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£8,010"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "9,045.93"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$9,984.46"
+                }
+            ],
+            "feesInternational": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£16,500"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€18,632.45"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$20,564.03"
+                }
+            ],
+            "courseDetails": "This course explores the exciting and dynamic world of digital marketing. You will investigate the debates around the Virtual Reality, the Metaverse, Artificial Intelligence, Digital Transformation and Digital skills that are framing the world around us.Accredited by the Digital Marketing Institute (DMI), this Masters will also allow you to be certified as a Certified Digital Marketing Professional. Membership of the DMI is Included in the course fee and gives you access to a wealth of study materials and rich content via the DMI student online portal.",
+            "entryRequierment": "You will need to hold a First or Second class honours degree (or equivalent) in order to be eligible for this course. No work experience is required for admission onto this course.",
+            "ielts": "6.5 overall with a minimum of 6.0 in writing and 5.5 in all other skills.",
+            "link": "https://www.northampton.ac.uk/courses/digital-marketing-msc/"
+        },
+        {
+            "id": 9,
+            "name": "BIM-Enabled Sustainable Buildings MSc",
+            "level": "Postgraduate",
+            "location": "Waterside",
+            "duration": [
+                {
+                    "id": 1,
+                    "name": "Full Time",
+                    "duration": "1 year"
+                },
+                {
+                    "id": 2,
+                    "name": "Part Time",
+                    "duration": "2 year"
+                }
+            ],
+            "starting": [
+                {
+                    "id": 1,
+                    "name": "September"
+                }
+            ],
+            "feesUk": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£8,010"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "9,045.93"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$9,984.46"
+                }
+            ],
+            "feesInternational": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£16,500"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€18,632.45"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$20,564.03"
+                }
+            ],
+            "courseDetails": "The BIM-Enabled Sustainable Buildings MSc program uniquely combines Building Information Modelling (BIM) and Sustainable Design Engineering to address the growing demand in the UK construction industry. With the government mandating BIM level 2 compliance by 2020 and sustainability becoming a key aspect in project strategies, this program provides a solid foundation in both areas. It offers multi-disciplinary modules, allowing individuals with different backgrounds to specialize in sustainable building design, high-performance building design, and advanced building simulation techniques. By focusing on the Digital Built Environment, BIM, and climate-responsive low-to-zero emission buildings, this course equips students with the knowledge and skills necessary for a successful career in these emerging sectors. The program emphasizes research-led teaching and industry experience, collaborating with ongoing BIM research projects and international industrial partners to provide valuable practical insights.",
+            "entryRequierment": "A 2:2 honours degree or above in an appropriate construction discipline (e.g. architecture, architectural technology, civil, mechanical, electrical engineering, surveying etc.).The programme welcomes applications from those with a wide variety of educational qualifications or experience and will consider on merit applicants with no formal qualifications through an online interview.",
+            "ielts": "6.5 (or equivalent)",
+            "link": "https://www.northampton.ac.uk/courses/bim-enabled-sustainable-buildings-msc/#course_overview"
+        },
+        {
+            "id": 10,
+            "name": "Computing (Software Engineering) MSc",
+            "level": "Postgraduate",
+            "location": "Waterside",
+            "duration": [
+                {
+                    "id": 1,
+                    "name": "Full Time",
+                    "duration": "1 year"
+                },
+                {
+                    "id": 3,
+                    "name": "Part Time",
+                    "duration": "2 years"
+                }
+            ],
+            "starting": [
+                {
+                    "id": 1,
+                    "name": "September"
+                },
+                {
+                    "id": 2,
+                    "name": "February"
+                }
+            ],
+            "feesUk": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£8,010"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "9,045.93"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$9,984.46"
+                }
+            ],
+            "feesInternational": [
+                {
+                    "id": 1,
+                    "currency": "GBP",
+                    "fees": "£16,500"
+                },
+                {
+                    "id": 2,
+                    "currency": "EUR",
+                    "fees": "€18,632.45"
+                },
+                {
+                    "id": 3,
+                    "currency": "USD",
+                    "fees": "$20,564.03"
+                }
+            ],
+            "courseDetails": "There is a huge demand for software that communicates effectively with a number of devices. As a result, there is a need for qualified and skilled professionals who can design, develop and analyse software to improve our current provision. Our Software Engineering MSc will equip you with this expertise. Although this software computing postgraduate course does have a technical focus, students will also develop their interpersonal skills and understanding of business context: both of which are vital to being able to problem solve in business.",
+            "entryRequierment": "Applicants for the msc computer software engineering will normally hold a recognised first or second class honours degree from a UK university or international equivalent in a relevant subject. We expect that you will have a working knowledge of computers and networks and it is essential that you have practical hands-on experience of at least one programming language.",
+            "ielts": "6.5 (or equivalent)",
+            "link": "https://www.northampton.ac.uk/courses/computing-software-engineering-msc/"
         }
-      },
-      "location": "Waterside"
-    }
-  ]
-  
+    ]
+}
