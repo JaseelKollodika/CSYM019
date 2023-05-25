@@ -1,27 +1,165 @@
-.logo {
-    background-image: url(avatar_1557.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-  width: 100px; /* set desired width */
-  height: 100px; /* set desired height */
-  position: absolute;
-  top: 10px; /* set desired distance from top */
-  left: 10px; /* set desired distance from left */
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/*Table styling*/
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #014904;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tablewrapper {
+    width: 100vw;
+}
+
 table {
-    border-collapse: collapse;
+    border-collapse:separate;
     width: 100%;
-  }
-  
-  th, td {
-    border: 1px solid #dfcece;
+    margin-bottom: 50px;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
     text-align: left;
     padding: 8px;
-  }
-  
-  th {
+    min-width: 100px;
+}
+
+th {
+    background-color: #040504;
+    color: white;
+}
+
+tr:nth-child(even) {
     background-color: #f2f2f2;
-  }
-  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+ul li {
+    margin: 5px 0;
+    border-top: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.course-container {
+    text-align: center;
+}
+
+.course-container a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.course-container a:hover {
+    text-decoration: underline;
+}
+
+.duration,
+.starting,
+.fees {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.course-container {
+    margin-bottom: 20px;
+}
+
+.course-container h3 {
+    margin: 0 0 10px;
+    color: #4CAF50;
+}
+
+.course-container img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.course-container p {
+    margin: 0;
+}
+
+.course-details {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.entry-requirements {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.course-fees {
+    font-size: 14px;
+}
+
+.duration,
+.starting,
+.fees {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.course-container {
+    margin-bottom: 20px;
+}
+
+.course-container h3 {
+    margin: 0 0 10px;
+    color: #4CAF50;
+}
+
+.course-container img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.course-container p {
+    margin: 0;
+}
+
+.course-details {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.entry-requirements {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.course-fees {
+    font-size: 14px;
+}
+
+.selector {
+    display: flex;
+    justify-content:right;
+}
+
+select#currency {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background: #0e0f0e;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
